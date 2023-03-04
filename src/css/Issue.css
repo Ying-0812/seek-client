@@ -1,0 +1,138 @@
+.issueContainer {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(233, 236, 239);
+    padding: 30px 0px;
+}
+
+.tagBody {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.headerTag {
+    width: 100%;
+    min-height: 100px;
+    background-color: #fff;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.headerBody {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle {
+    font-size: 24px;
+    white-space: nowrap;
+    margin-right: 46px;
+}
+
+.tagList {
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.issueBody {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.issueLeft {
+    width: 940px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.issuePagination {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.issueRight {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.issueHot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hotList {
+    width: 100%;
+    background-color: #fff;
+}
+
+.hotBody {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hotItem {
+    width: 100%;
+    padding: 8px 16px;
+    border-top: 1px solid rgba(0, 0, 0, .0625);
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+
+.hotItem:hover {
+    background-color: rgb(248, 249, 250);
+}
+
+.badge {
+    width: 26px;
+    flex-shrink: 0;
+    height: 26px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+}
+
+.hotFont {
+    margin-left: 16px;
+    line-height: 24px;
+}
+
+.fontHot {
+    color: #212529;
+}
+
+.fontHot:hover {
+    text-decoration: none;
+}
+
+.issueRank {
+    margin-top: 25px;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.rankTitle {
+    padding: 20px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}

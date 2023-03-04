@@ -1,0 +1,56 @@
+.personContainer {
+    width: 1300px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.personHeader {
+    width: 100%;
+    padding: 20px 40px;
+    font-size: 24px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.personInfo {
+    margin: 40px auto;
+    width: 1160px;
+    border: 1px solid #ccc;
+}
+
+.infoHeader {
+    width: 100%;
+    height: 60px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.msgFont {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.changeBtn {
+    color: #1677ff;
+    cursor: pointer;
+}
+
+.infoBody {
+    padding: 30px;
+}
+
+.staticItem {
+    margin: 20px 0px;
+    color: #666;
+}
+
+.itemSpan {
+    color: #000;
+}

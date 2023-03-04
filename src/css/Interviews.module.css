@@ -1,0 +1,17 @@
+.interContainer {
+    width: 1300px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    background-color: #fff;
+    display: flex;
+}
+
+.interLeft {
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+}
+
+.interRight {
+    margin-left: 80px;
+}

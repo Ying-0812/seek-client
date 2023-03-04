@@ -1,0 +1,42 @@
+.issueDel{
+    width: 940px;
+    box-sizing: border-box;
+}
+.delBody{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.issueDelTitle{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.issueUserInfo{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.issueAvatar{
+    margin-right: 8px;
+}
+.issueMsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.issueName{
+    font-size: .875rem;
+    color: #1677ff;
+}
+.issueTime{
+    font-size: .875rem;
+    color: #6c757d;
+}
+.issueContent{
+    margin-top: 16px;
+    width: 100%;
+}
